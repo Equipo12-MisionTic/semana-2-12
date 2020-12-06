@@ -1,4 +1,5 @@
 <template>
+
     <div>
     <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
       <a class="navbar-brand" href="# ">
@@ -151,8 +152,6 @@
       </a>
     </div>
     </div>
-
-
 </template>
 
 <script>
