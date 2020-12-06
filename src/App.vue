@@ -13,7 +13,6 @@
 <script>
 import { component } from 'vue/types/umd'
 import TeamCard from './components/TeamCard.vue'
-import TeamCard from '/components/TeamCard.vue'
 
 
 export default {
@@ -63,5 +62,5 @@ export default {
       ],
     }
   }
-  
+}
 </script>
