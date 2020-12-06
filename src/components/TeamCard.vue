@@ -1,6 +1,4 @@
 <template>
-    <div>
-        <div class="col mt-5">
             <div class="card text-white bg-dark">
                 <div class="d-flex justify-content-center p-2">
                     <svg width="12em" height="12em" viewBox="0 0 16 16"
@@ -29,8 +27,6 @@
                     ago</small>
                 </div>
             </div>
-         </div>
-    </div>
 </template>
 
 <script>

@@ -4,7 +4,9 @@
 
         <div class="container-fluid">
         <div class="row justify-content-center mb-5">
-          <team-card></team-card>
+          <div class="col mt-5" v-for="(item, index) of members" :key="index">
+            <team-card></team-card>
+          </div>
         </div>
         </div>
   </div>
@@ -17,6 +19,7 @@ import TeamCard from './components/TeamCard.vue'
 
 export default {
   name: 'App',
+
   components : {
     TeamCard
   },
@@ -25,14 +28,14 @@ export default {
     return{
       members : [
         {
-​          codigo​: ​1​,
-​          nombre​: ​'Lucas Mera'​,
-​          descripcion​: ​'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum ac elit et accumsan.'​,
-​          rol​: ​'Desarrollador backend'​,
-​          image​: ​'https://placeimg.com/192/192/people' 
+​           codigo​: 1​,
+​           nombre​: ​'Lucas Mera',
+​           descripcion​: ​'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum ac elit et accumsan.'​,
+​           rol​: ​'Desarrollador backend'​,
+​           image​: ​'https://placeimg.com/192/192/people' 
         },
         {​ 
-          codigo​: ​2​,
+          codigo​: 2,
 ​          nombre​: ​'Lucas Mera'​,
 ​          descripcion​: ​'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum ac elit et accumsan.'​,
 ​           rol​: ​'Desarrollador backend'​,
