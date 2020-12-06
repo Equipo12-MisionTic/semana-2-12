@@ -1,6 +1,6 @@
 <template>
     
-  <footer class="page-footer bg-secondary text-white pt-4">
+  <footer class=" borde_footer page-footer bg-secondary text-white pt-4">
     <!-- Footer Text -->
     <div class="container-fluid text-center text-md-left">
       <!-- Grid row -->
@@ -50,7 +50,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-1 bg-dark">
-      © 2020 Copyright: Equipo 12 Repowa!! UTP-MinTIC
+      © 2020 Copyright: Equipo 12  UTP-MinTIC
     </div>
     <!-- Copyright -->
   </footer>
@@ -61,3 +61,14 @@ export default {
   name: "PageFooter",
 };
 </script>
+
+<style scoped>
+.borde_footer{
+  margin:10px ;
+  border: black solid 5px;
+    border-radius: 0px;
+    border-style:dotted;
+  
+
+}
+</style>
