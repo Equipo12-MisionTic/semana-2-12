@@ -4,21 +4,27 @@
 
         <div class="container-fluid">
         <div class="row justify-content-center mb-5">
-
+          <team-card></team-card>
         </div>
         </div>
   </div>
 </template>
 
 <script>
+import { component } from 'vue/types/umd'
+import TeamCard from './components/TeamCard.vue'
+import TeamCard from '/components/TeamCard.vue'
+
 
 export default {
   name: 'App',
-
+  components : {
+    TeamCard
+  },
 
   data(){
     return{
-      team : [
+      members : [
         {
 ​          codigo​: ​1​,
 ​          nombre​: ​'Lucas Mera'​,
@@ -48,7 +54,7 @@ export default {
 ​           image​: ​'https://placeimg.com/192/192/people' 
         },
         {​ 
-          codigo​: ​15,
+          codigo​: ​5,
 ​          nombre​: ​'Lucas Mera'​,
 ​          descripcion​: ​'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris condimentum ac elit et accumsan.'​,
 ​           rol​: ​'Desarrollador backend'​,
@@ -59,4 +65,3 @@ export default {
   }
   
 </script>
-
