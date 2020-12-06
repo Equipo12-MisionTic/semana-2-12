@@ -1,23 +1,27 @@
 <template>
   <div id="app">
   
-<div class="container-fluid">
+    <div class="container-fluid">
   
+    <section-api/>
+    <page-footer/>
 
-    <section-api> </section-api>
-
-        </div>
-        </div>
-        
+    </div>
+  </div>
+       
 </template>
 
 <script>
 import SectionApi from './components/SectionApi.vue';
 
+import PageFooter from './components/PageFooter.vue'
+
 export default {
   name: 'App',
+
   components : {
-  SectionApi,
+    SectionApi,
+    PageFooter
   }
 }
 </script>
